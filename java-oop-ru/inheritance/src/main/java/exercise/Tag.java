@@ -7,28 +7,25 @@ public abstract class Tag {
     private String name;
     private Map<String, String> attributes;
 
-    public Tag(final String name, final Map<String, String> attributes) {
+    Tag (final String name, final Map<String, String> attributes) {
         this.name = name;
         this.attributes = attributes;
-    }
-
-    public String toString() {
-        return null;
     }
 
     public String getName() {
-        return name;
+        return this.name;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
+    public String toString() {
+        StringBuilder stringBuilder = new StringBuilder();
+        stringBuilder.append("<" + getName());
 
-    public Map<String, String> getAttributes() {
-        return attributes;
-    }
+        for (Map.Entry<String, String> entry : attributes.entrySet()) {
+            stringBuilder.append(" " + entry.getKey() + "=\"" + entry.getValue() + "\"");
+        }
 
-    public void setAttributes(Map<String, String> attributes) {
-        this.attributes = attributes;
+        stringBuilder.append(">");
+        return stringBuilder.toString();
     }
 }
+
