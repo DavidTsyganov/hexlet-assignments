@@ -53,7 +53,6 @@ class ValidationTest {
         Map<String, Object> expected = objectMapper.readValue(expectedContent, HashMap.class);
         assertThat(actual).isEqualTo(expected);
     }
-
     @Test
     void testExtract() throws Exception {
         Path fixturePath = getFixturePath("car.json");
