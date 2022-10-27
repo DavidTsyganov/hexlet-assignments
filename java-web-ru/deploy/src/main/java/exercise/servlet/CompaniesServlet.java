@@ -21,29 +21,24 @@ public class CompaniesServlet extends HttpServlet {
     public void doGet(HttpServletRequest request,
                       HttpServletResponse response)
                 throws IOException, ServletException {
-        String query = request.getQueryString();
         PrintWriter printWriter = response.getWriter();
-        List<String> result = new ArrayList<>();
+        List<String> companies = getCompanies();
 
-        if (query == null || query.isEmpty()) {
-            printWriter.write(formatter(Data.getCompanies()));
-            return;
-        }
+        String searchString = request.getParameter("search") == null ? "" : request.getParameter("search");
+
+        List<String> result = companies
+                .stream()
+                .filter((name) -> name.contains(searchString))
+                .collect(Collectors.toList());
 
         String searchParameter = request.getParameter("search");
 
-        if (searchParameter == null || searchParameter.isEmpty()) {
-            printWriter.write(formatter(Data.getCompanies()));
-        } else {
-            result = checkCompanies(Data.getCompanies(), searchParameter);
-
-            if (result.isEmpty()) {
-                printWriter.write("Companies not found");
-            } else {
-                printWriter.write(formatter(result));
-            }
+        if (result.isEmpty()) {
+            printWriter.println("Companies not found");
+            return;
         }
-        printWriter.close();
+
+        result.forEach(printWriter::println);
     }
 
     public List<String> checkCompanies(List<String> companies, String param) {
