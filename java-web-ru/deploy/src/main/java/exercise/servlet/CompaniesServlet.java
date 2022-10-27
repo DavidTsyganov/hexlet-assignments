@@ -31,33 +31,12 @@ public class CompaniesServlet extends HttpServlet {
                 .filter((name) -> name.contains(searchString))
                 .collect(Collectors.toList());
 
-        String searchParameter = request.getParameter("search");
-
         if (result.isEmpty()) {
             printWriter.println("Companies not found");
             return;
         }
 
         result.forEach(printWriter::println);
-    }
-
-    public List<String> checkCompanies(List<String> companies, String param) {
-        List<String> result = new ArrayList<>();
-
-        result = companies.stream()
-                .filter((name) -> name.contains(param))
-                .collect(Collectors.toList());
-
-        return result;
-    }
-
-    public static String formatter(List<String> result) {
-        StringBuilder stringBuilder = new StringBuilder();
-        for (String name : result) {
-            stringBuilder.append(name);
-            stringBuilder.append(System.lineSeparator());
-        }
-        return stringBuilder.toString();
     }
 
 }
