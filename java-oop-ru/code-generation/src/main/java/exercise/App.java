@@ -1,13 +1,11 @@
 package exercise;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
-
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.nio.file.Path;
 import java.nio.file.Files;
-import java.nio.file.Paths;
+import java.nio.file.Path;
+
 import static exercise.Car.unserialize;
 
 public class App {
