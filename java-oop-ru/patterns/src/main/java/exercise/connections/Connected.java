@@ -4,19 +4,15 @@ import exercise.TcpConnection;
 
 public class Connected implements Connection {
     private TcpConnection connection;
+    private final String STATE_NAME = "connected";
 
     public Connected(TcpConnection connection) {
         this.connection = connection;
     }
 
     @Override
-    public String getCurrentState() {
-        return "connected";
-    }
-
-    @Override
     public void connect() {
-        System.out.println("Error! Connection is already set.");
+        System.out.println("Error! You're already connected.");
     }
 
     @Override
@@ -26,6 +22,12 @@ public class Connected implements Connection {
 
     @Override
     public void write(String data) {
-        System.out.println(data);
+        connection.addToBuffer(data);
+    }
+    @Override
+    public String getName() {
+        return STATE_NAME;
     }
 }
+
+

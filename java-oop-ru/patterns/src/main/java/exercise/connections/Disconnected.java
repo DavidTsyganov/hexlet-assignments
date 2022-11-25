@@ -4,16 +4,11 @@ import exercise.TcpConnection;
 
 public class Disconnected implements Connection {
     private TcpConnection connection;
+    private final String STATE_NAME = "disconnected";
 
     public Disconnected(TcpConnection connection) {
         this.connection = connection;
     }
-
-    @Override
-    public String getCurrentState() {
-        return "disconnected";
-    }
-
     @Override
     public void connect() {
         connection.setState(new Connected(connection));
@@ -21,11 +16,15 @@ public class Disconnected implements Connection {
 
     @Override
     public void disconnect() {
-        System.out.println("Error! It's already disconnected.");
+        System.out.println("Error! You're already disconnected.");
     }
 
     @Override
-    public void write(String data) {
-        System.out.println("Error! There's no connection.");
+    public void write(String string) {
+        System.out.println("Error! You are disconnected. Connect before write.");
+    }
+    @Override
+    public String getName() {
+        return STATE_NAME;
     }
 }
