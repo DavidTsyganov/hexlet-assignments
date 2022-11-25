@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="aa5da5c6-304b-4ac3-adc4-2aa72e633e6e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.html" beforeDir="false" afterPath="$PROJECT_DIR$/README.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TUTORIAL.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/presentation.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exercise/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercise/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exercise/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercise/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exercise/NegativeRadiusException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercise/NegativeRadiusException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../interfaces/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../interfaces/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../interfaces_25.11.22_16.28.55/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../interfaces_25.11.22_16.28.55/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../interfaces_25.11.22_16.28.55/README.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../interfaces_25.11.22_16.28.55/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../interfaces_25.11.22_16.28.55/TUTORIAL.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../interfaces_25.11.22_16.28.55/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../interfaces_25.11.22_16.28.55/examples/Bmw.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../interfaces_25.11.22_16.28.55/examples/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../interfaces_25.11.22_16.28.55/examples/Example.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../interfaces_25.11.22_16.28.55/examples/Kia.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../interfaces_25.11.22_16.28.55/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../interfaces_25.11.22_16.28.55/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../interfaces_25.11.22_16.28.55/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../interfaces_25.11.22_16.28.55/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../interfaces_25.11.22_16.28.55/presentation.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../interfaces_25.11.22_16.28.55/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../interfaces_25.11.22_16.28.55/src/main/java/exercise/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../interfaces_25.11.22_16.28.55/src/main/java/exercise/Cottage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../interfaces_25.11.22_16.28.55/src/main/java/exercise/Flat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../interfaces_25.11.22_16.28.55/src/main/java/exercise/Home.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../interfaces_25.11.22_16.28.55/src/main/java/exercise/ReversedSequence.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../interfaces_25.11.22_16.28.55/src/test/java/exercise/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../interfaces_25.11.22_16.28.55/src/test/java/exercise/ReversedSequenceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/http_18.10.22_23.06.40/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/http_18.10.22_23.06.40/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/http_18.10.22_23.06.40/README.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/http_18.10.22_23.06.40/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/http_18.10.22_23.06.40/TUTORIAL.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/http_18.10.22_23.06.40/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/http_18.10.22_23.06.40/examples/Example.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/http_18.10.22_23.06.40/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/http_18.10.22_23.06.40/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/http_18.10.22_23.06.40/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/http_18.10.22_23.06.40/presentation.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/http_18.10.22_23.06.40/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/http_18.10.22_23.06.40/solution" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/http_18.10.22_23.06.40/src/main/java/exercise/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/http_18.10.22_23.06.40/src/main/java/exercise/servlet/UploadServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/http_18.10.22_23.06.40/src/test/java/exercise/AppTest.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2CAVbKT4F23wTkz8vuuUmlsXHI6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/home/dts/Hexlet/hexlet-assignments/java-oop-ru/errors_25.11.22_16.43.17"
+  }
+}]]></component>
+  <component name="RunManager" selected="Gradle.AppTest (1)">
+    <configuration name="AppTest (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;exercise.AppTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="CircleTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;exercise.CircleTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ErrorTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;exercise.ErrorTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.AppTest (1)" />
+        <item itemvalue="Gradle.CircleTest" />
+        <item itemvalue="Gradle.ErrorTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aa5da5c6-304b-4ac3-adc4-2aa72e633e6e" name="Changes" comment="" />
+      <created>1658245446868</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1658245446868</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
