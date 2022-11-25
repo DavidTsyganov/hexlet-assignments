@@ -3,33 +3,29 @@ package exercise.connections;
 import exercise.TcpConnection;
 
 public class Connected implements Connection {
-    private TcpConnection tcpConnection;
-    private final String STATE_NAME = "connected";
+    private TcpConnection connection;
 
-    public Connected(TcpConnection tcpConnection) {
-        this.tcpConnection = tcpConnection;
+    public Connected(TcpConnection connection) {
+        this.connection = connection;
+    }
+
+    @Override
+    public String getCurrentState() {
+        return "connected";
     }
 
     @Override
     public void connect() {
-        System.out.println("Error. You're already connected.");
+        System.out.println("Error! Connection is already set.");
     }
 
     @Override
     public void disconnect() {
-        TcpConnection newTcp = this.tcpConnection;
-        newTcp.setConnection(new Disconnected(this.tcpConnection));
-        System.out.println("disconnected");
+        connection.setState(new Disconnected(connection));
     }
 
     @Override
-    public void write(String string) {
-        System.out.println(string + " was added to the buffer.");
-    }
-
-    public String getStateName() {
-        return STATE_NAME;
+    public void write(String data) {
+        System.out.println(data);
     }
 }
-
-

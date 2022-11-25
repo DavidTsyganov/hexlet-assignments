@@ -1,8 +1,9 @@
 package exercise.connections;
 
 public interface Connection {
-    void connect();
-    void disconnect();
-    void write(String string);
-    String getSTATE_NAME();
+    public String getCurrentState();
+    public void connect();
+    public void disconnect();
+    public void write(String data);
+
 }

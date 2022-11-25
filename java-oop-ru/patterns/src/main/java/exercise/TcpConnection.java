@@ -6,36 +6,38 @@ import exercise.connections.Disconnected;
 import java.util.List;
 import java.util.ArrayList;
 
-public class TcpConnection {
-    private Connection connection;
-    private final String ip;
-    private final int port;
+public class TcpConnection implements Connection {
+    private Connection state;
+    private String ip;
+    private int port;
 
-    public TcpConnection(final String ip, final int port) {
+    public TcpConnection(String ip, int port) {
         this.ip = ip;
         this.port = port;
-        this.connection = new Disconnected(this);
+        state = new Disconnected(this);
     }
 
+    public void setState(Connection state) {
+        this.state = state;
+    }
+
+    @Override
     public String getCurrentState() {
-        return this.connection.getSTATE_NAME();
+        return state.getCurrentState();
     }
 
+    @Override
     public void connect() {
-        ;
+        state.connect();
     }
 
+    @Override
     public void disconnect() {
-        getCurrentState().disconnect();
+        state.disconnect();
     }
 
-    public void write(String string) {
-        getCurrentState().write(string);
+    @Override
+    public void write(String data) {
+        state.write(data);
     }
-
-    public void setConnection(Connection connection) {
-        this.connection = connection;
-    }
-
 }
-
