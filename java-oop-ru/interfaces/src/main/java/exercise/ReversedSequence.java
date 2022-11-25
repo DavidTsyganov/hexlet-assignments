@@ -1,7 +1,5 @@
 package exercise;
 
-import java.util.Arrays;
-
 public class ReversedSequence implements CharSequence {
     private String text;
 
